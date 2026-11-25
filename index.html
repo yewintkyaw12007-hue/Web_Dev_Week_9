@@ -4,27 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Wheels on Fire - browse sports cars, supercars and everyday cars for sale in Dublin, Ireland.">
 
-    <title>Wheels on Fire - Cars & Car Collections</title>
+    <meta name="description"
+        content="Explore the Wheels on Fire collection of premium, sports and everyday cars. Discover vehicles and learn more about our services.">
+
+    <meta name="theme-color" content="#080808">
+
+    <title>Wheels on Fire | Cars & Car Collections</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
 
-    <!-- Skip link for keyboard and screen reader users -->
-    <a class="skip-link" href="#main">Skip to main content</a>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <!-- ================= HEADER ================= -->
-
+    <!-- HEADER -->
     <header>
 
         <div class="logo">
-            <img src="logo.jpg" alt="Wheels on Fire logo">
-            <span class="logo-text">Wheels on Fire</span>
+            <img src="logo.jpg" alt="" width="50" height="50">
+            <h2>Wheels on Fire</h2>
         </div>
 
         <nav aria-label="Main navigation">
@@ -38,10 +44,9 @@
 
     </header>
 
-    <main id="main">
+    <main id="main-content">
 
-        <!-- ================= HERO ================= -->
-
+        <!-- HERO -->
         <section class="hero" id="hero" aria-labelledby="hero-title">
 
             <div class="hero-text">
@@ -53,14 +58,13 @@
                     and find the perfect vehicle for your lifestyle.
                 </p>
 
-                <a href="#cars" class="btn">Explore our cars for sale</a>
+                <a href="#cars" class="btn">Explore Cars</a>
 
             </div>
 
         </section>
 
-        <!-- ================= CARS FOR SALE ================= -->
-
+        <!-- CARS FOR SALE -->
         <section class="cars" id="cars" aria-labelledby="cars-title">
 
             <h2 class="section-title" id="cars-title">Cars for Sale</h2>
@@ -72,92 +76,101 @@
             <div class="car-scroll">
 
                 <article class="car-card">
-                    <img src="Ferrari 488 GTB.jpg" alt="Red Ferrari 488 GTB sports car">
+                    <img src="Ferrari 488 GTB.jpg" alt="Red Ferrari 488 GTB"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Sports Car</span>
                         <h3>Ferrari 488 GTB</h3>
-                        <p>Colour: Red • Fuel: Petrol</p>
-                        <strong>Price: €215,000</strong>
+                        <p>Red · Petrol</p>
+                        <strong>€215,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="Porsche 911 Carrera.jpg" alt="Grey Porsche 911 Carrera sports car">
+                    <img src="Porsche 911 Carrera.jpg" alt="Grey Porsche 911 Carrera"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Sports Car</span>
                         <h3>Porsche 911 Carrera</h3>
-                        <p>Colour: Grey • Fuel: Petrol</p>
-                        <strong>Price: €135,000</strong>
+                        <p>Grey · Petrol</p>
+                        <strong>€135,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="lamborghini.jpg" alt="Black Lamborghini Huracán supercar">
+                    <img src="lamborghini.jpg" alt="Black Lamborghini Huracán"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Supercar</span>
                         <h3>Lamborghini Huracán</h3>
-                        <p>Colour: Black • Fuel: Petrol</p>
-                        <strong>Price: €245,000</strong>
+                        <p>Black · Petrol</p>
+                        <strong>€245,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="bmw.jpg" alt="Blue BMW M4 Competition sports car">
+                    <img src="bmw.jpg" alt="Blue BMW M4 Competition"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Sports Car</span>
                         <h3>BMW M4 Competition</h3>
-                        <p>Colour: Blue • Fuel: Petrol</p>
-                        <strong>Price: €95,000</strong>
+                        <p>Blue · Petrol</p>
+                        <strong>€95,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="mercedes.jpg" alt="Black Mercedes-AMG GT sports car">
+                    <img src="mercedes.jpg" alt="Black Mercedes-AMG GT"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Sports Car</span>
                         <h3>Mercedes-AMG GT</h3>
-                        <p>Colour: Black • Fuel: Petrol</p>
-                        <strong>Price: €165,000</strong>
+                        <p>Black · Petrol</p>
+                        <strong>€165,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="audi.jpg" alt="Grey Audi RS5 saloon">
+                    <img src="audi.jpg" alt="Grey Audi RS5"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Saloon</span>
                         <h3>Audi RS5</h3>
-                        <p>Colour: Grey • Fuel: Petrol</p>
-                        <strong>Price: €82,000</strong>
+                        <p>Grey · Petrol</p>
+                        <strong>€82,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="mustang.jpg" alt="Blue Ford Mustang GT sports car">
+                    <img src="mustang.jpg" alt="Blue Ford Mustang GT"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Sports Car</span>
                         <h3>Ford Mustang GT</h3>
-                        <p>Colour: Blue • Fuel: Petrol</p>
-                        <strong>Price: €65,000</strong>
+                        <p>Blue · Petrol</p>
+                        <strong>€65,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="corvette.jpg" alt="Red Chevrolet Corvette C8 supercar">
+                    <img src="corvette.jpg" alt="Red Chevrolet Corvette C8"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>Supercar</span>
                         <h3>Chevrolet Corvette C8</h3>
-                        <p>Colour: Red • Fuel: Petrol</p>
-                        <strong>Price: €110,000</strong>
+                        <p>Red · Petrol</p>
+                        <strong>€110,000</strong>
                     </div>
                 </article>
 
                 <article class="car-card">
-                    <img src="range-rover.jpg" alt="Black Range Rover Sport hybrid SUV">
+                    <img src="range-rover.jpg" alt="Black Range Rover Sport"
+                        loading="lazy" width="600" height="400">
                     <div class="car-info">
                         <span>SUV</span>
                         <h3>Range Rover Sport</h3>
-                        <p>Colour: Black • Fuel: Hybrid</p>
-                        <strong>Price: €98,000</strong>
+                        <p>Black · Hybrid</p>
+                        <strong>€98,000</strong>
                     </div>
                 </article>
 
@@ -165,8 +178,7 @@
 
         </section>
 
-        <!-- ================= SERVICES ================= -->
-
+        <!-- SERVICES -->
         <section class="services" id="services" aria-labelledby="services-title">
 
             <h2 class="section-title" id="services-title">Our Services</h2>
@@ -203,15 +215,13 @@
 
     </main>
 
-    <!-- ================= FOOTER ================= -->
-
+    <!-- FOOTER -->
     <footer>
 
         <div class="footer-container">
 
-            <!-- ABOUT -->
             <div class="footer-column">
-                <h2>Wheels on Fire</h2>
+                <h3>Wheels on Fire</h3>
                 <p>Cars. Passion. Performance.</p>
                 <p>
                     Your destination for discovering,
@@ -219,53 +229,48 @@
                 </p>
             </div>
 
-            <!-- CONTACT -->
             <div class="footer-column">
-                <h2>Contact Us</h2>
-                <p>Email: <a href="mailto:info@wheelsonfire.ie">info@wheelsonfire.ie</a></p>
-                <p>Sales: <a href="mailto:sales@wheelsonfire.ie">sales@wheelsonfire.ie</a></p>
-                <p>Phone: <a href="tel:+35312345678">+353 1 234 5678</a></p>
-                <p>Mobile: <a href="tel:+353871234567">+353 87 123 4567</a></p>
+                <h3>Contact Us</h3>
+                <p>Email: info@wheelsonfire.ie</p>
+                <p>Sales: sales@wheelsonfire.ie</p>
+                <p>Phone: +353 1 234 5678</p>
+                <p>Mobile: +353 87 123 4567</p>
             </div>
 
-            <!-- SHOP LOCATION -->
             <div class="footer-column">
-                <h2>Visit Our Shop</h2>
+                <h3>Visit Our Shop</h3>
                 <address>
-                    <p>Wheels on Fire</p>
-                    <p>25 Grand Canal Street</p>
-                    <p>Dublin 2</p>
-                    <p>D02 XY45</p>
-                    <p>Ireland</p>
+                    Wheels on Fire<br>
+                    25 Grand Canal Street<br>
+                    Dublin 2<br>
+                    D02 XY45<br>
+                    Ireland
                 </address>
             </div>
 
-            <!-- SOCIAL MEDIA -->
             <div class="footer-column">
-                <h2>Follow Us</h2>
+                <h3>Follow Us</h3>
                 <p>
                     Stay updated with our latest cars
                     and collections.
                 </p>
 
-                <nav aria-label="Social media">
-                    <div class="social-links">
-                        <a href="#">Instagram</a>
-                        <a href="#">Facebook</a>
-                        <a href="#">TikTok</a>
-                        <a href="#">YouTube</a>
-                    </div>
-                </nav>
+                <!-- Replace # with the real social media URLs when available -->
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">TikTok</a>
+                    <a href="#">YouTube</a>
+                </div>
             </div>
 
         </div>
 
-        <!-- COPYRIGHT -->
         <div class="footer-bottom">
             <p>&copy; 2026 Wheels on Fire. All Rights Reserved.</p>
         </div>
 
     </footer>
-</body>
 
+</body>
 </html>
